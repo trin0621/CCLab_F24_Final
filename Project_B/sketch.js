@@ -1,5 +1,6 @@
 function setup() {
     let canvas = createCanvas(800, 450);
+    canvas.id("p5-filter-canvas");
     canvas.parent("p5-filter-canvas-container");
   }
 
