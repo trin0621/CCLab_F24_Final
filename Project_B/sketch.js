@@ -1,4 +1,8 @@
-console.log("test")
+function setup() {
+    let canvas = createCanvas(800, 450);
+    canvas.parent("p5-filter-canvas-container");
+  }
+
 var capture;
 var tracker;
 var w = 640, h = 480;
