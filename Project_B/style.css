@@ -128,7 +128,7 @@ img {
 }
 
 #p5-filter-canvas-container {
-    display: contents;
+    display: flex;
     width: 800px;
     height: 450px;
     /* margin-top: -425px;
